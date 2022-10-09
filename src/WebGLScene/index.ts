@@ -52,12 +52,11 @@ export default class WebGLScene extends THREE.EventDispatcher {
 		this.canvasWidth = size.width;
 		this.canvasHeight = size.height;
 		this.camera = new THREE.PerspectiveCamera(
-			45,
+			75,
 			this.canvasWidth / this.canvasHeight,
 			0.01,
-			20000
+			2000
 		);
-		this.camera.position.set(200, 200, 200);
 		// 控制器
 		this.controls = new OrbitControls(
 			this.camera,
