@@ -1,4 +1,4 @@
-import DemoScene from 'DemoScene';
+import DemoScene from 'DemoScene2';
 import { Application } from '../src';
 
 const dom = document.getElementById('app');
