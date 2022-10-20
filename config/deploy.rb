@@ -11,14 +11,14 @@ require 'mina/deploy'
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
-set :application_name, 'uniserver'
+set :application_name, 'makechild'
 set :domain, '49.234.96.253'
 set :user, 'root'
 set :port, '1314'
 set :forward_agent, true  
 set :deploy_to, '/data/www/makchild'
 set :repository, 'git@github.com:kong2dog/makechild.git'
-set :branch, 'master'
+set :branch, 'main'
 
 # Optional settings:
 #   set :user, 'foobar'          # Username in the server to SSH to.
